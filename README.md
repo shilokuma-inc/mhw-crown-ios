@@ -1,5 +1,5 @@
-# template-app-ios
-iOS Application Template (SwiftUI)
+# mhw-crown-ios
+MHW Crown App (SwiftUI)
 
 ## Status
 
