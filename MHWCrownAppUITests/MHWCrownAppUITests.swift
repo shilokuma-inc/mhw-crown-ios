@@ -1,13 +1,13 @@
 //
-//  IOSTemplateAppUITests.swift
-//  IOSTemplateAppUITests
+//  MHWCrownAppUITests.swift
+//  MHWCrownAppUITests
 //
 //  Created by 村石 拓海 on 2024/05/12.
 //
 
 import XCTest
 
-final class IOSTemplateAppUITests: XCTestCase {
+final class MHWCrownAppUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
