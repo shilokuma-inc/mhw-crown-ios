@@ -8,6 +8,8 @@
 import Foundation
 
 struct CrownDataEntity {
+    var id: Int?
+    var name: String?
     var isLimitMaximum: Bool = false
     var isMaximum: Bool = false
     var isMinimum: Bool = false
