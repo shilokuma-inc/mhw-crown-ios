@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct CrownDataEntity {
+struct CrownDataEntity: Identifiable {
     var id: Int?
     var name: String?
     var isLimitMaximum: Bool = false

@@ -8,14 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    let monsterCrownData = MonsterCrownData()
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            List(monsterCrownData.crownDataEntitys) { entity in
+                Text(entity.name ?? "モンスター名が未登録です")
+            }
+            .navigationTitle("Monster Crown Data")
         }
-        .padding()
         .onAppear {
             print(MonsterCrownData())
         }
