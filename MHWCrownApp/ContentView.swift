@@ -8,12 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
-    let monsterCrownData = MonsterCrownData()
+    @State var monsterCrownData = MonsterCrownData()
 
     var body: some View {
         NavigationView {
-            List(monsterCrownData.crownDataEntitys) { entity in
-                Text(entity.name ?? "モンスター名が未登録です")
+            List($monsterCrownData.crownDataEntitys) { $entity in
+                VStack(alignment: .leading) {
+                    Text(entity.name)
+                        .font(.headline)
+                    Toggle("金冠", isOn: $entity.isMaximum)
+                    Toggle("最小冠", isOn: $entity.isMinimum)
+                }
             }
             .navigationTitle("Monster Crown Data")
         }

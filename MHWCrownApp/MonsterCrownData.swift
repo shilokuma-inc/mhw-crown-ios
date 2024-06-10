@@ -13,35 +13,67 @@ public struct MonsterCrownData {
     init() {
         let firstEntity = CrownDataEntity(
             id: 1,
-            name: "ラージャン"
+            name: "ラージャン",
+            isLimitMaximum: false,
+            isMaximum: false,
+            isMinimum: false,
+            isLimitMinimum: false
         )
         let secondEntity = CrownDataEntity(
             id: 2,
-            name: "激昂ラージャン"
+            name: "激昂ラージャン",
+            isLimitMaximum: false,
+            isMaximum: false,
+            isMinimum: false,
+            isLimitMinimum: false
         )
         let thirdEntity = CrownDataEntity(
             id: 3,
-            name: "リオレウス"
+            name: "リオレウス",
+            isLimitMaximum: false,
+            isMaximum: false,
+            isMinimum: false,
+            isLimitMinimum: false
         )
         let fourEntity = CrownDataEntity(
             id: 4,
-            name: "リオレウス亜種"
+            name: "リオレウス亜種",
+            isLimitMaximum: false,
+            isMaximum: false,
+            isMinimum: false,
+            isLimitMinimum: false
         )
         let fifthEntity = CrownDataEntity(
             id: 5,
-            name: "リオレウス希少種"
+            name: "リオレウス希少種",
+            isLimitMaximum: false,
+            isMaximum: false,
+            isMinimum: false,
+            isLimitMinimum: false
         )
         let sixthEntity = CrownDataEntity(
             id: 6,
-            name: "リオレイア"
+            name: "リオレイア",
+            isLimitMaximum: false,
+            isMaximum: false,
+            isMinimum: false,
+            isLimitMinimum: false
         )
         let seventhEntity = CrownDataEntity(
             id: 7,
-            name: "リオレイア亜種"
+            name: "リオレイア亜種",
+            isLimitMaximum: false,
+            isMaximum: false,
+            isMinimum: false,
+            isLimitMinimum: false
         )
         let eighthEntity = CrownDataEntity(
             id: 8,
-            name: "リオレイア希少種"
+            name: "リオレイア希少種",
+            isLimitMaximum: false,
+            isMaximum: false,
+            isMinimum: false,
+            isLimitMinimum: false
         )
         self.crownDataEntitys = [firstEntity, secondEntity, thirdEntity, fourEntity, fifthEntity, sixthEntity, seventhEntity, eighthEntity]
     }
