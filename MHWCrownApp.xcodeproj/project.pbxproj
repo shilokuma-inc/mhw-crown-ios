@@ -14,6 +14,7 @@
 		4FC9E1FE2BF1049C00F630AB /* MHWCrownAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC9E1FD2BF1049C00F630AB /* MHWCrownAppTests.swift */; };
 		4FC9E2082BF1049C00F630AB /* MHWCrownAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC9E2072BF1049C00F630AB /* MHWCrownAppUITests.swift */; };
 		4FC9E20A2BF1049C00F630AB /* MHWCrownAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC9E2092BF1049C00F630AB /* MHWCrownAppUITestsLaunchTests.swift */; };
+		4FD577F02C1706AC0019A95A /* CrownDataEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD577EF2C1706AC0019A95A /* CrownDataEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		4FC9E2072BF1049C00F630AB /* MHWCrownAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHWCrownAppUITests.swift; sourceTree = "<group>"; };
 		4FC9E2092BF1049C00F630AB /* MHWCrownAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHWCrownAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4FC9E2162BF1334B00F630AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4FD577EF2C1706AC0019A95A /* CrownDataEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrownDataEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				4FC9E1EC2BF1049B00F630AB /* MHWCrownApp.swift */,
+				4FD577EF2C1706AC0019A95A /* CrownDataEntity.swift */,
 				4FC9E1EE2BF1049B00F630AB /* ContentView.swift */,
 				4FC9E1F02BF1049C00F630AB /* Assets.xcassets */,
 				4FC9E2162BF1334B00F630AB /* Info.plist */,
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FD577F02C1706AC0019A95A /* CrownDataEntity.swift in Sources */,
 				4FC9E1EF2BF1049B00F630AB /* ContentView.swift in Sources */,
 				4FC9E1ED2BF1049B00F630AB /* MHWCrownApp.swift in Sources */,
 			);
