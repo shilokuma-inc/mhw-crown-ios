@@ -7,9 +7,20 @@
 
 import Foundation
 
-struct CrownDataEntity {
-    var isLimitMaximum: Bool = false
-    var isMaximum: Bool = false
-    var isMinimum: Bool = false
-    var isLimitMinimum: Bool = false
+struct CrownDataEntity: Identifiable {
+    var id: Int
+    var name: String
+    var isLimitMaximum: Bool
+    var isMaximum: Bool
+    var isMinimum: Bool
+    var isLimitMinimum: Bool
+
+    init(id: Int, name: String, isLimitMaximum: Bool, isMaximum: Bool, isMinimum: Bool, isLimitMinimum: Bool) {
+        self.id = id
+        self.name = name
+        self.isLimitMaximum = isLimitMaximum
+        self.isMaximum = isMaximum
+        self.isMinimum = isMinimum
+        self.isLimitMinimum = isLimitMinimum
+    }
 }

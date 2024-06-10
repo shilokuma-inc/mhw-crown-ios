@@ -8,14 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var monsterCrownData = MonsterCrownData()
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            List($monsterCrownData.crownDataEntitys) { $entity in
+                VStack(alignment: .leading) {
+                    Text(entity.name)
+                        .font(.headline)
+                    Toggle("金冠", isOn: $entity.isMaximum)
+                    Toggle("最小冠", isOn: $entity.isMinimum)
+                }
+            }
+            .navigationTitle("Monster Crown Data")
         }
-        .padding()
         .onAppear {
             print(MonsterCrownData())
         }
